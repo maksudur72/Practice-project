@@ -1,6 +1,7 @@
 body {
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     margin: 0;
 }
 
@@ -8,7 +9,7 @@ h1 {
     font-size: 45px;
 }
 
-section {
+.flexible-content {
     display: flex;
     margin-bottom: 80px;
 }
@@ -24,8 +25,8 @@ section {
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
-    margin-left: 30px;
+    padding-left: 7%;
+
 }
 
 .half-width img {
@@ -43,4 +44,27 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 50%;
+    padding: 0px 90px 0px 90px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 80px 80px;
+    border-radius: 20px;
+
+}
+
+#border-1 {
+    border-left: 7px solid salmon;
+    border-radius: 4px;
+}
+
+#border-2 {
+    border-left: 7px solid darkblue;
+    border-radius: 4px;
+}
+
+footer p {
+    text-align: center;
 }
