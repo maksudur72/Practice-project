@@ -1,20 +1,46 @@
 body {
     font-family: 'Merriweather Sans', sans-serif;
     font-family: 'Mochiy Pop P One', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 45px;
 }
 
 section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .color {
     color: crimson;
 }
 
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 .half-width {
     width: 50%;
+    padding-left: 5%;
+    margin-left: 30px;
 }
 
 .half-width img {
     width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
